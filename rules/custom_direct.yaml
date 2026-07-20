@@ -1,25 +1,13 @@
 payload:
-  # ========================================
-  # 内网/本地 NAS/路由器
-  # ========================================
-  - 'DOMAIN-SUFFIX,ppnas.com'         # 你的 NAS 内网服务
-  - 'DOMAIN-SUFFIX,local'
-  - 'DOMAIN-SUFFIX,lan'
-  - 'DOMAIN-SUFFIX,localhost'
-  - 'DOMAIN-SUFFIX,arpa'
+  # ==========================================
+  # 你的个人直连补充（不依赖 cn_domain 大表）
+  # cn_domain 已在 rules/mirror/cn_domain.yaml 中覆盖国内域名
+  # 这里只写你**个人特有**的直连域
+  # ==========================================
 
-  # ========================================
-  # 常见明确直连（补 cn_domain 之外的漏）
-  # ========================================
-  - 'DOMAIN-SUFFIX,cn'                # ⚠️ 会兜底所有 .cn，配合 custom_proxy 排除已知伪 .cn
-  - 'DOMAIN-SUFFIX,alicdn.com'
-  - 'DOMAIN-SUFFIX,aliyuncs.com'
-  - 'DOMAIN-SUFFIX,mi.com'
-  - 'DOMAIN-SUFFIX,xiaomi.com'
-  - 'DOMAIN-SUFFIX,huawei.com'
-  - 'DOMAIN-SUFFIX,hicloud.com'
-  - 'DOMAIN-SUFFIX,tencent.com'
-  - 'DOMAIN-SUFFIX,qq.com'
-  - 'DOMAIN-SUFFIX,weixin.qq.com'
-  - 'DOMAIN-SUFFIX,bytedance.com'
-  - 'DOMAIN-SUFFIX,douyin.com'
+  # 本地 NAS / 家庭服务
+  - 'DOMAIN-SUFFIX,ppnas.com'
+
+  # 你在境外注册但服务在国内 or 想强制直连的域
+  # 示例：（按需追加）
+  # - 'DOMAIN-SUFFIX,myhome.example.com'

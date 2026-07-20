@@ -1,0 +1,9 @@
+payload:
+  - 'DOMAIN-SUFFIX,speedtest.net'
+  - 'DOMAIN-SUFFIX,ooklaserver.net'
+  - 'DOMAIN-SUFFIX,speedtestcustom.com'
+  - 'DOMAIN-SUFFIX,fast.com'
+  - 'DOMAIN-SUFFIX,speed.cloudflare.com'
+  - 'DOMAIN-SUFFIX,speedof.me'
+  - 'DOMAIN-SUFFIX,librespeed.org'
+  - 'DOMAIN-KEYWORD,speedtest'

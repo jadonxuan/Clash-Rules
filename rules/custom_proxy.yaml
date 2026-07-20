@@ -1,27 +1,16 @@
 payload:
-  # ========================================
-  # 伪装 .cn 的境外代理软件服务端（必须走代理）
-  # 日志证据：cn_domain 规则误判 → AWS 海外 IP → i/o timeout
-  # ========================================
-  - 'DOMAIN-SUFFIX,tnjxaon.cn'      # hxaws / hkapp / hxapp 系列（AWS 东京）
-  - 'DOMAIN-SUFFIX,jbexix.cn'       # hkfwq 等（新注册 .cn，境外解析）
-  - 'DOMAIN-SUFFIX,kunlun05dns.com' # ppg-us 系列代理节点
-  - 'DOMAIN-SUFFIX,onblix.com'      # mail/nak/cha/nak2/assets 系列
+  # ==========================================
+  # ⭐ 核心作用：覆盖 cn_domain 的误判
+  # 这些域名在 .cn / 看似中国域名，但服务器在境外 → 走代理才能通
+  # 日志证据：cn_domain 命中后走直连 → AWS 海外 IP → i/o timeout
+  # ==========================================
+  - 'DOMAIN-SUFFIX,tnjxaon.cn'        # hxaws / hkapp / hxapp（AWS 东京）
+  - 'DOMAIN-SUFFIX,jbexix.cn'         # hkfwq（境外解析）
+  - 'DOMAIN-SUFFIX,kunlun05dns.com'   # ppg-us 代理节点
+  - 'DOMAIN-SUFFIX,onblix.com'        # mail/nak/cha/nak2/assets
 
-  # ========================================
-  # 开发者/科研常用
-  # ========================================
-  - 'DOMAIN-SUFFIX,github.com'
-  - 'DOMAIN-SUFFIX,githubusercontent.com'
-  - 'DOMAIN-SUFFIX,githubassets.com'
-  - 'DOMAIN-SUFFIX,ghcr.io'
-  - 'DOMAIN-SUFFIX,gitlab.com'
-  - 'DOMAIN-SUFFIX,docker.io'
-  - 'DOMAIN-SUFFIX,docker.com'
-  - 'DOMAIN-SUFFIX,npmjs.org'
-  - 'DOMAIN-SUFFIX,npmjs.com'
-  - 'DOMAIN-SUFFIX,pypi.org'
-  - 'DOMAIN-SUFFIX,pythonhosted.org'
-  - 'DOMAIN-SUFFIX,cloudflare.com'
-  - 'DOMAIN-SUFFIX,stackoverflow.com'
-  - 'DOMAIN-SUFFIX,archlinux.org'
+  # ==========================================
+  # 你个人的境外服务白名单（按需追加）
+  # ==========================================
+  # 示例：
+  # - 'DOMAIN-SUFFIX,myservice.example.com'

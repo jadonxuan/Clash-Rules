@@ -1,0 +1,58 @@
+name: Mirror Upstream Rules
+
+on:
+  schedule:
+    - cron: '17 4 * * *'  # 每天 UTC 04:17（北京 12:17）
+  workflow_dispatch:      # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch upstream YAML rulesets
+        run: |
+          set -e
+          mkdir -p rules/mirror ip/mirror
+          BASE="https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta"
+
+          # ---- geosite (domain) ----
+          curl -fsSL "${BASE}/geo/geosite/cn.yaml"                 -o rules/mirror/cn_domain.yaml
+          curl -fsSL "${BASE}/geo/geosite/geolocation-!cn.yaml"    -o rules/mirror/geolocation-not-cn.yaml
+
+          # ---- geoip (ipcidr) ----
+          curl -fsSL "${BASE}/geo/geoip/cn.yaml"                   -o ip/mirror/cn_ip.yaml
+
+          # 加同步头信息
+          NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          for f in rules/mirror/*.yaml ip/mirror/*.yaml; do
+            {
+              echo "# Auto-mirrored from MetaCubeX/meta-rules-dat"
+              echo "# Sync time (UTC): ${NOW}"
+              echo "# DO NOT edit manually — changes will be overwritten"
+              cat "$f"
+            } > "${f}.tmp" && mv "${f}.tmp" "$f"
+          done
+
+      - name: Show diff summary
+        run: |
+          git status --short
+          echo "---"
+          git diff --stat || true
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules/mirror ip/mirror
+          if git diff --cached --quiet; then
+            echo "No upstream changes."
+            exit 0
+          fi
+          git commit -m "chore(mirror): sync upstream rulesets $(date -u +%Y-%m-%d)"
+          git push

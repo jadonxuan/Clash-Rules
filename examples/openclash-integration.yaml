@@ -1,73 +1,88 @@
 # =============================================================================
-# 集成到 /etc/openclash/LSDL.yaml 的示例片段
-# 使用方法：把 rule-providers 段合并进你的 config，rules 段按顺序放到 rules: 顶部
+# OpenClash 集成示例（合并进 /etc/openclash/LSDL.yaml）
+# 20 个 rule-providers + 相应 rules 段
+# 全部来自你自己的 jadonxuan/Clash-Rules 仓库
 # =============================================================================
 
+rule-anchor:
+  ip:     &ip     { type: http, interval: 86400, behavior: ipcidr,    format: yaml }
+  domain: &domain { type: http, interval: 86400, behavior: domain,    format: yaml }
+  class:  &class  { type: http, interval: 86400, behavior: classical, format: yaml }
+
 rule-providers:
-  custom_reject:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_reject.yaml"
-    path: ./ruleset/custom_reject.yaml
-    interval: 3600
+  # ---------- 手写：自定义 ----------
+  custom_proxy:    { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_proxy.yaml",    path: ./ruleset/custom_proxy.yaml }
+  custom_direct:   { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_direct.yaml",   path: ./ruleset/custom_direct.yaml }
+  custom_reject:   { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_reject.yaml",   path: ./ruleset/custom_reject.yaml }
 
-  custom_direct:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_direct.yaml"
-    path: ./ruleset/custom_direct.yaml
-    interval: 3600
+  # ---------- 手写：按厂商 domain ----------
+  ai:              { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/ai.yaml",              path: ./ruleset/ai.yaml }
+  tiktok:          { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/tiktok.yaml",          path: ./ruleset/tiktok.yaml }
+  youtube:         { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/youtube.yaml",         path: ./ruleset/youtube.yaml }
+  google:          { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/google.yaml",          path: ./ruleset/google.yaml }
+  github:          { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/github.yaml",          path: ./ruleset/github.yaml }
+  telegram:        { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/telegram.yaml",        path: ./ruleset/telegram.yaml }
+  netflix:         { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/netflix.yaml",         path: ./ruleset/netflix.yaml }
+  paypal:          { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/paypal.yaml",          path: ./ruleset/paypal.yaml }
+  onedrive:        { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/onedrive.yaml",        path: ./ruleset/onedrive.yaml }
+  microsoft:       { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/microsoft.yaml",       path: ./ruleset/microsoft.yaml }
+  apple:           { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/apple.yaml",           path: ./ruleset/apple.yaml }
+  speedtest:       { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/speedtest.yaml",       path: ./ruleset/speedtest.yaml }
+  private_domain:  { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/private_domain.yaml",  path: ./ruleset/private_domain.yaml }
 
-  custom_proxy:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_proxy.yaml"
-    path: ./ruleset/custom_proxy.yaml
-    interval: 3600
+  # ---------- 手写：按厂商 IP ----------
+  private_ip:      { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/private_ip.yaml",         path: ./ruleset/private_ip.yaml }
+  google_ip:       { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/google_ip.yaml",          path: ./ruleset/google_ip.yaml }
+  apple_ip:        { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/apple_ip.yaml",           path: ./ruleset/apple_ip.yaml }
+  telegram_ip:     { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/telegram_ip.yaml",        path: ./ruleset/telegram_ip.yaml }
+  netflix_ip:      { <<: *class,  url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/netflix_ip.yaml",         path: ./ruleset/netflix_ip.yaml }
 
-  apple_fix:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/apple_fix.yaml"
-    path: ./ruleset/apple_fix.yaml
-    interval: 3600
-
-  ai_custom:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/ai.yaml"
-    path: ./ruleset/ai_custom.yaml
-    interval: 3600
-
-  private_ip:
-    type: http
-    behavior: classical
-    format: yaml
-    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/private_ip.yaml"
-    path: ./ruleset/private_ip.yaml
-    interval: 86400
+  # ---------- Mirror：大表（Actions 自动同步） ----------
+  cn_domain:            { <<: *class, url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/mirror/cn_domain.yaml",            path: ./ruleset/cn_domain.yaml }
+  geolocation_not_cn:   { <<: *class, url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/mirror/geolocation-not-cn.yaml",   path: ./ruleset/geolocation-not-cn.yaml }
+  cn_ip:                { <<: *class, url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/mirror/cn_ip.yaml",                   path: ./ruleset/cn_ip.yaml }
 
 # -----------------------------------------------------------------------------
-# rules 段：以下 6 条放到你现有 rules: 列表的最顶部（顺序=优先级）
+# rules 段：顺序 = 优先级
 # -----------------------------------------------------------------------------
 rules:
+  # 内网/本地
   - RULE-SET,private_ip,DIRECT
-  - RULE-SET,custom_reject,REJECT
-  - RULE-SET,apple_fix,DIRECT
-  - RULE-SET,custom_proxy,🚀 默认代理     # ← 覆盖 cn_domain 误判
-  - RULE-SET,custom_direct,DIRECT
-  - RULE-SET,ai_custom,🤖 ChatGPT
+  - RULE-SET,private_domain,DIRECT
 
-  # 你现有的规则接在下面 ...
-  # - RULE-SET,tiktok_domain,🎵 TikTok
-  # - RULE-SET,ai,🤖 ChatGPT
-  # - RULE-SET,google_domain,🍀 Google
-  # - RULE-SET,apple_domain,DIRECT
-  # - RULE-SET,cn_domain,DIRECT
-  # - RULE-SET,geolocation-!cn,🚀 默认代理
-  # - MATCH,🐟 漏网之鱼
+  # 广告/遥测拦截
+  - RULE-SET,custom_reject,REJECT
+
+  # ⭐ 覆盖 cn_domain 误判（必须在 cn_domain 之前）
+  - RULE-SET,custom_proxy,🚀 默认代理
+
+  # 你个人的直连补充
+  - RULE-SET,custom_direct,DIRECT
+
+  # 按服务分流
+  - RULE-SET,ai,🤖 ChatGPT
+  - RULE-SET,github,🚀 默认代理
+  - RULE-SET,telegram,🚀 默认代理
+  - RULE-SET,telegram_ip,🚀 默认代理
+  - RULE-SET,netflix,🚀 默认代理
+  - RULE-SET,netflix_ip,🚀 默认代理
+  - RULE-SET,paypal,🚀 默认代理
+  - RULE-SET,tiktok,🎵 TikTok
+  - RULE-SET,youtube,📹 YouTube
+  - RULE-SET,google,🍀 Google
+  - RULE-SET,google_ip,🍀 Google
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,apple_ip,DIRECT
+  - RULE-SET,microsoft,DIRECT
+  - RULE-SET,onedrive,DIRECT
+  - RULE-SET,speedtest,DIRECT
+
+  # 中国域名/IP（mirror 大表）
+  - RULE-SET,cn_domain,DIRECT
+  - RULE-SET,cn_ip,DIRECT
+
+  # 境外
+  - RULE-SET,geolocation_not_cn,🚀 默认代理
+
+  # 兜底
+  - MATCH,🐟 漏网之鱼

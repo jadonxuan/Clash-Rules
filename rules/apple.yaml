@@ -1,0 +1,43 @@
+payload:
+  # ==========================================
+  # 修复 DNS 解析失败（日志证据：token.safebrowsing.apple dns resolve failed）
+  # ==========================================
+  - 'DOMAIN,token.safebrowsing.apple'
+  - 'DOMAIN-SUFFIX,safebrowsing.apple'
+
+  # ==========================================
+  # 苹果核心服务
+  # ==========================================
+  - 'DOMAIN-SUFFIX,apple.com'
+  - 'DOMAIN-SUFFIX,apple.com.cn'
+  - 'DOMAIN-SUFFIX,apple-cloudkit.com'
+  - 'DOMAIN-SUFFIX,apple-mapkit.com'
+  - 'DOMAIN-SUFFIX,apple-livephotoskit.com'
+  - 'DOMAIN-SUFFIX,cdn-apple.com'
+  - 'DOMAIN-SUFFIX,mzstatic.com'
+
+  # iCloud
+  - 'DOMAIN-SUFFIX,icloud.com'
+  - 'DOMAIN-SUFFIX,icloud-content.com'
+  - 'DOMAIN-SUFFIX,icloud.com.cn'
+  - 'DOMAIN-SUFFIX,me.com'
+  - 'DOMAIN-SUFFIX,mac.com'
+
+  # App Store / iTunes
+  - 'DOMAIN-SUFFIX,itunes.apple.com'
+  - 'DOMAIN-SUFFIX,itunes.com'
+  - 'DOMAIN-SUFFIX,appsto.re'
+
+  # Push / 服务
+  - 'DOMAIN-SUFFIX,push.apple.com'
+  - 'DOMAIN-SUFFIX,push-apple.com.akadns.net'
+  - 'DOMAIN-SUFFIX,gsa.apple.com'
+  - 'DOMAIN-SUFFIX,gs.apple.com'
+
+  # 开发者
+  - 'DOMAIN-SUFFIX,swscan.apple.com'
+  - 'DOMAIN-SUFFIX,swquery.apple.com'
+  - 'DOMAIN-SUFFIX,swdist.apple.com'
+  - 'DOMAIN-SUFFIX,swdownload.apple.com'
+  - 'DOMAIN-SUFFIX,swcdn.apple.com'
+  - 'DOMAIN-SUFFIX,xp.apple.com'

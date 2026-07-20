@@ -1,0 +1,17 @@
+payload:
+  # 特殊 TLD
+  - 'DOMAIN-SUFFIX,local'
+  - 'DOMAIN-SUFFIX,localhost'
+  - 'DOMAIN-SUFFIX,lan'
+  - 'DOMAIN-SUFFIX,home'
+  - 'DOMAIN-SUFFIX,home.arpa'
+  - 'DOMAIN-SUFFIX,arpa'
+  - 'DOMAIN-SUFFIX,internal'
+  - 'DOMAIN-SUFFIX,intranet'
+  - 'DOMAIN-SUFFIX,private'
+  - 'DOMAIN-SUFFIX,corp'
+  - 'DOMAIN-SUFFIX,workgroup'
+  - 'DOMAIN-SUFFIX,localdomain'
+  - 'DOMAIN-SUFFIX,invalid'
+  - 'DOMAIN-SUFFIX,test'
+  - 'DOMAIN-SUFFIX,example'
