@@ -1,0 +1,73 @@
+# =============================================================================
+# 集成到 /etc/openclash/LSDL.yaml 的示例片段
+# 使用方法：把 rule-providers 段合并进你的 config，rules 段按顺序放到 rules: 顶部
+# =============================================================================
+
+rule-providers:
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_reject.yaml"
+    path: ./ruleset/custom_reject.yaml
+    interval: 3600
+
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_direct.yaml"
+    path: ./ruleset/custom_direct.yaml
+    interval: 3600
+
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/custom_proxy.yaml"
+    path: ./ruleset/custom_proxy.yaml
+    interval: 3600
+
+  apple_fix:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/apple_fix.yaml"
+    path: ./ruleset/apple_fix.yaml
+    interval: 3600
+
+  ai_custom:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/rules/ai.yaml"
+    path: ./ruleset/ai_custom.yaml
+    interval: 3600
+
+  private_ip:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadonxuan/Clash-Rules/main/ip/private_ip.yaml"
+    path: ./ruleset/private_ip.yaml
+    interval: 86400
+
+# -----------------------------------------------------------------------------
+# rules 段：以下 6 条放到你现有 rules: 列表的最顶部（顺序=优先级）
+# -----------------------------------------------------------------------------
+rules:
+  - RULE-SET,private_ip,DIRECT
+  - RULE-SET,custom_reject,REJECT
+  - RULE-SET,apple_fix,DIRECT
+  - RULE-SET,custom_proxy,🚀 默认代理     # ← 覆盖 cn_domain 误判
+  - RULE-SET,custom_direct,DIRECT
+  - RULE-SET,ai_custom,🤖 ChatGPT
+
+  # 你现有的规则接在下面 ...
+  # - RULE-SET,tiktok_domain,🎵 TikTok
+  # - RULE-SET,ai,🤖 ChatGPT
+  # - RULE-SET,google_domain,🍀 Google
+  # - RULE-SET,apple_domain,DIRECT
+  # - RULE-SET,cn_domain,DIRECT
+  # - RULE-SET,geolocation-!cn,🚀 默认代理
+  # - MATCH,🐟 漏网之鱼

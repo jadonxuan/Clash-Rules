@@ -1,0 +1,16 @@
+payload:
+  # ========================================
+  # 修复 DNS 解析失败的 apple 域
+  # 日志证据：token.safebrowsing.apple:443 dns resolve failed
+  # 原因：非标准 .apple TLD 走了 Fake-IP 但无 A 记录
+  # ========================================
+  - 'DOMAIN,token.safebrowsing.apple'
+  - 'DOMAIN-SUFFIX,safebrowsing.apple'
+  - 'DOMAIN-SUFFIX,push.apple.com'
+  - 'DOMAIN-SUFFIX,itunes.apple.com'
+  - 'DOMAIN-SUFFIX,icloud.com'
+  - 'DOMAIN-SUFFIX,icloud-content.com'
+  - 'DOMAIN-SUFFIX,me.com'
+  - 'DOMAIN-SUFFIX,mzstatic.com'
+  - 'DOMAIN-SUFFIX,apple.com'
+  - 'DOMAIN-SUFFIX,cdn-apple.com'

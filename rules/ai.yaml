@@ -1,0 +1,39 @@
+payload:
+  # OpenAI / ChatGPT
+  - 'DOMAIN-SUFFIX,openai.com'
+  - 'DOMAIN-SUFFIX,oaistatic.com'
+  - 'DOMAIN-SUFFIX,oaiusercontent.com'
+  - 'DOMAIN-SUFFIX,chatgpt.com'
+  - 'DOMAIN-SUFFIX,sora.com'
+  - 'DOMAIN-SUFFIX,openaiapi-site.azureedge.net'
+  - 'DOMAIN-SUFFIX,auth0.com'
+
+  # Anthropic / Claude
+  - 'DOMAIN-SUFFIX,anthropic.com'
+  - 'DOMAIN-SUFFIX,claude.ai'
+  - 'DOMAIN-SUFFIX,claudeusercontent.com'
+
+  # Google Gemini / AI Studio
+  - 'DOMAIN-SUFFIX,gemini.google.com'
+  - 'DOMAIN-SUFFIX,bard.google.com'
+  - 'DOMAIN-SUFFIX,generativelanguage.googleapis.com'
+  - 'DOMAIN-SUFFIX,ai.google.dev'
+  - 'DOMAIN-SUFFIX,aistudio.google.com'
+
+  # xAI / Grok
+  - 'DOMAIN-SUFFIX,x.ai'
+  - 'DOMAIN-SUFFIX,grok.com'
+
+  # Perplexity
+  - 'DOMAIN-SUFFIX,perplexity.ai'
+
+  # GitHub Copilot
+  - 'DOMAIN-SUFFIX,githubcopilot.com'
+  - 'DOMAIN-SUFFIX,copilot.microsoft.com'
+
+  # Poe / Mistral / Cohere / HuggingFace
+  - 'DOMAIN-SUFFIX,poe.com'
+  - 'DOMAIN-SUFFIX,mistral.ai'
+  - 'DOMAIN-SUFFIX,cohere.com'
+  - 'DOMAIN-SUFFIX,huggingface.co'
+  - 'DOMAIN-SUFFIX,hf.co'

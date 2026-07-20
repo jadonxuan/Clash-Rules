@@ -1,0 +1,25 @@
+payload:
+  # ========================================
+  # 内网/本地 NAS/路由器
+  # ========================================
+  - 'DOMAIN-SUFFIX,ppnas.com'         # 你的 NAS 内网服务
+  - 'DOMAIN-SUFFIX,local'
+  - 'DOMAIN-SUFFIX,lan'
+  - 'DOMAIN-SUFFIX,localhost'
+  - 'DOMAIN-SUFFIX,arpa'
+
+  # ========================================
+  # 常见明确直连（补 cn_domain 之外的漏）
+  # ========================================
+  - 'DOMAIN-SUFFIX,cn'                # ⚠️ 会兜底所有 .cn，配合 custom_proxy 排除已知伪 .cn
+  - 'DOMAIN-SUFFIX,alicdn.com'
+  - 'DOMAIN-SUFFIX,aliyuncs.com'
+  - 'DOMAIN-SUFFIX,mi.com'
+  - 'DOMAIN-SUFFIX,xiaomi.com'
+  - 'DOMAIN-SUFFIX,huawei.com'
+  - 'DOMAIN-SUFFIX,hicloud.com'
+  - 'DOMAIN-SUFFIX,tencent.com'
+  - 'DOMAIN-SUFFIX,qq.com'
+  - 'DOMAIN-SUFFIX,weixin.qq.com'
+  - 'DOMAIN-SUFFIX,bytedance.com'
+  - 'DOMAIN-SUFFIX,douyin.com'
