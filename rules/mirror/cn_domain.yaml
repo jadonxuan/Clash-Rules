@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-07-23T06:38:46Z
+# Sync time (UTC): 2026-07-24T06:38:08Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - +.alibaba
@@ -54,8 +54,8 @@ payload:
     - +.baidu
     - +.anquan
     - +.alipay
-    - +.jsgc.com
-    - +.denganliang.com
+    - +.jsgc168.com
+    - +.gxchuen.com
     - +.028-xhxgt.com
     - +.0283home.com
     - +.0289kh1448.xin
@@ -12494,7 +12494,7 @@ payload:
     - +.artebuy.com
     - +.artech-graphite.com
     - +.artemedhospital.com
-    - +.arterytek.com
+    - +.jsmodeling.com
     - +.artexamcq.com
     - +.artfinace.com
     - +.artfoxlive.com
@@ -18664,7 +18664,7 @@ payload:
     - +.cbecok.com
     - +.cbecx.com
     - +.cbeeexpo.com
-    - +.jsmolfa.com
+    - +.cbes21.com
     - +.cbex.com
     - +.cbf92cea38c259ee.com
     - +.cbfau.com
@@ -19103,6 +19103,7 @@ payload:
     - +.cd-zc.com
     - +.cd00c44f211031.beer
     - +.cd120.com
+    - +.cd120.info
     - +.cd12371.com
     - +.cd1958.com
     - +.cd20.net
@@ -26277,7 +26278,7 @@ payload:
     - +.cxgeo.com
     - +.cxgj56.com
     - +.cxglys.com
-    - +.jsmo.xin
+    - +.cxgw.com
     - +.cxh99.com
     - +.cxhan.com
     - +.cxhr.com
@@ -27993,7 +27994,7 @@ payload:
     - +.denachina.com
     - +.denaircompressor.com
     - +.deng88.com
-    - +.jsmodeling.com
+    - +.denganliang.com
     - +.dengbaogonggao.com
     - +.dengbi8.com
     - +.dengbiao.com
@@ -36170,7 +36171,7 @@ payload:
     - +.fymall4.com
     - +.fymall5.com
     - +.fymall6.com
-    - +.fymall7.com
+    - +.jsmrmf.com
     - +.fymall8.com
     - +.fymall9.com
     - +.fymallqa0.com
@@ -40542,7 +40543,7 @@ payload:
     - +.gxchr.com
     - +.gxchuanghua.com
     - +.gxchuanlan.com
-    - +.gxchuen.com
+    - +.jsmolfa.com
     - +.gxchunmao.com
     - +.gxchuxin.com
     - +.gxcic.net
@@ -55788,8 +55789,8 @@ payload:
     - +.jsfywater.com
     - +.jsfyxh.net
     - +.jsgbds.com
+    - +.jsgc.com
     - +.0.zone
-    - +.jsgc168.com
     - +.jsgcbank.com
     - +.jsgcjyw.com
     - +.jsgclaw.com
@@ -55960,10 +55961,10 @@ payload:
     - +.jsminstar.com
     - +.jsmjys.com
     - +.jsmkyy.com
-    - +.cxgw.com
+    - +.jsmo.xin
+    - +.arterytek.com
     - +.027zpw.com
-    - +.cbes21.com
-    - +.jsmrmf.com
+    - +.fymall7.com
     - +.jsmsg.com
     - +.jsmxgs.com
     - +.jsmxw.com
@@ -66536,6 +66537,7 @@ payload:
     - +.moe321.com
     - +.moeclub.org
     - +.moedot.net
+    - +.moedu.com
     - +.moeelf.com
     - +.moefactory.com
     - +.moefantasy.com
@@ -90618,6 +90620,7 @@ payload:
     - +.tsingpost.com
     - +.tsingshang.com
     - +.tsingtek.com
+    - +.tsingtengms.com
     - +.tsingtoo.com
     - +.tsingtuo.com
     - +.tsingyangroup.com
@@ -98250,6 +98253,7 @@ payload:
     - +.xcxymw.com
     - +.xcxzww.com
     - +.xcyg.net
+    - +.xcz.im
     - +.xczhmzb.com
     - +.xczhsh.com
     - +.xczim.com
