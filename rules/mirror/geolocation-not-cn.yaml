@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-07-27T07:48:07Z
+# Sync time (UTC): 2026-07-28T06:38:59Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - 1password.drift.click
@@ -816,8 +816,8 @@ payload:
     - +.apple
     - +.android
     - +.amazon
-    - +.ruptly.video
-    - +.google.jo
+    - +.ruptly.tv
+    - +.bmw-group.net
     - +.12vpn.com
     - +.12vpn.net
     - +.1337x.gd
@@ -3748,7 +3748,7 @@ payload:
     - +.bbystatic.com
     - +.bbyurl.us
     - +.bcbits.com
-    - +.jiuse.io
+    - +.bcex.ca
     - +.bcicdn.com
     - +.bcove.video
     - +.bcovlive.io
@@ -4695,7 +4695,7 @@ payload:
     - +.bmw-ghana.com
     - +.bmw-golfsport.com
     - +.bmw-group.com
-    - +.bmw-group.net
+    - +.jiuse.io
     - +.bmw-grouparchiv.de
     - +.bmw-grouparchives.com
     - +.bmw-gta.ca
@@ -10613,6 +10613,7 @@ payload:
     - +.githubnext.com
     - +.githubpreview.dev
     - +.githubstatus.com
+    - +.githubsupport.com
     - +.githubuniverse.com
     - +.githubusercontent.com
     - +.gitlab-static.net
@@ -10966,7 +10967,7 @@ payload:
     - +.google.it
     - +.xn--u2u927b.com
     - +.google.je
-    - +.jiuse6666.com
+    - +.google.jo
     - +.google.kg
     - +.google.ki
     - +.google.kz
@@ -13800,7 +13801,7 @@ payload:
     - +.jetfuelapp.com
     - +.jetfuelapps.com
     - +.jex.com
-    - +.xboxgamestudios.com
+    - +.jiuse6666.com
     - +.jfengtime.com
     - +.jfn.su
     - +.jfrog.com
@@ -13816,7 +13817,7 @@ payload:
     - +.jiaoyou8.com
     - +.jiayoulu.com
     - +.jibemobile.com
-    - +.xboxgamepass.com
+    - +.xboxgamestudios.com
     - +.jieav.com
     - +.jifangge.com
     - +.jihadology.net
@@ -13834,11 +13835,11 @@ payload:
     - +.jitouch.com
     - +.jitsi.org
     - +.jiuse.ai
-    - +.xboxab.com
-    - +.jiuse.icu
-    - +.bcex.ca
+    - +.xboxgamepass.com
+    - +.rtde.agency
     - +.12joursdecadeauxdeitunes.com
-    - +.vhx.tv
+    - +.xboxab.com
+    - +.jiuse821.com
     - +.jiuse822.com
     - +.jiuse823.com
     - +.jivara.global
@@ -20257,7 +20258,7 @@ payload:
     - +.rtbcdn.ru
     - +.rtbrasil.com
     - +.rtbrasil.info
-    - +.rtde.agency
+    - +.jiuse.icu
     - +.rtde.expert
     - +.rtde.express
     - +.rtde.info
@@ -20328,8 +20329,8 @@ payload:
     - +.runwayescorts.com
     - +.rupress.org
     - +.ruptly.agency
-    - +.ruptly.tv
     - +.000webhost.com
+    - +.ruptly.video
     - +.rurtnews.com
     - +.rusfinance.ru
     - +.rusfinancebank.ru
@@ -23202,6 +23203,7 @@ payload:
     - +.truyentranh86.com
     - +.truyenwk.com
     - +.try.rw
+    - +.tryai.dev
     - +.tryalias.com
     - +.tryboobs.com
     - +.trycloudflare.com
@@ -24027,7 +24029,7 @@ payload:
     - +.vfsforgit.org
     - +.vgcareers.net
     - +.vgg8.com
-    - +.jiuse821.com
+    - +.vhx.tv
     - +.vhxqa1.com
     - +.vhxqa2.com
     - +.vhxqa3.com
@@ -25457,9 +25459,9 @@ payload:
     - +.jivochat.com.br
     - +.jivochat.co.za
     - +.jivochat.co.in
+    - +.jfc.go.jp
     - +.jiuse.com.co
     - +.jibunbank.co.jp
-    - +.jfc.go.jp
     - +.jessicaturner.co.uk
     - +.jav.com.co
     - +.hsbc.com.hk
