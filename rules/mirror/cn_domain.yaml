@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-07-29T06:43:25Z
+# Sync time (UTC): 2026-07-30T06:39:47Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - +.alibaba
@@ -55,7 +55,7 @@ payload:
     - +.anquan
     - +.alipay
     - +.jsgc168.com
-    - +.gxchuen.com
+    - +.bjsdcm.net
     - +.028-xhxgt.com
     - +.0283home.com
     - +.0289kh1448.xin
@@ -4930,7 +4930,7 @@ payload:
     - +.51cto.com
     - +.51cube.com
     - +.51cxsoft.com
-    - +.51cywx.com
+    - +.jsmxgs.com
     - +.51czapp.com
     - +.51dai.com
     - +.51daifu.com
@@ -12494,7 +12494,7 @@ payload:
     - +.artebuy.com
     - +.artech-graphite.com
     - +.artemedhospital.com
-    - +.jsmodeling.com
+    - +.arterytek.com
     - +.artexamcq.com
     - +.artfinace.com
     - +.artfoxlive.com
@@ -16215,7 +16215,7 @@ payload:
     - +.bjscfl.com
     - +.bjscszh.com
     - +.bjscyxh.com
-    - +.bjsdcm.net
+    - +.jsmsg.com
     - +.bjsdeyy.com
     - +.bjsdfz.com
     - +.bjsdgroup.com
@@ -36171,7 +36171,7 @@ payload:
     - +.fymall4.com
     - +.fymall5.com
     - +.fymall6.com
-    - +.jsmrmf.com
+    - +.fymall7.com
     - +.fymall8.com
     - +.fymall9.com
     - +.fymallqa0.com
@@ -40543,7 +40543,7 @@ payload:
     - +.gxchr.com
     - +.gxchuanghua.com
     - +.gxchuanlan.com
-    - +.jsmolfa.com
+    - +.gxchuen.com
     - +.gxchunmao.com
     - +.gxchuxin.com
     - +.gxcic.net
@@ -55962,11 +55962,11 @@ payload:
     - +.jsmjys.com
     - +.jsmkyy.com
     - +.jsmo.xin
-    - +.arterytek.com
+    - +.jsmodeling.com
+    - +.jsmolfa.com
+    - +.morefood.com
     - +.027zpw.com
-    - +.fymall7.com
-    - +.jsmsg.com
-    - +.jsmxgs.com
+    - +.51cywx.com
     - +.jsmxw.com
     - +.jsna.work
     - +.jsnaier.com
@@ -66780,7 +66780,7 @@ payload:
     - +.morechinese.cc
     - +.moreck.com
     - +.moredian.com
-    - +.morefood.com
+    - +.jsmrmf.com
     - +.morefreegame.com
     - +.morefun-philippines.com
     - +.morefunstudio.com
@@ -100618,6 +100618,7 @@ payload:
     - +.xmmuye.com
     - +.xmnjdwx.com
     - +.xmocloud01.com
+    - +.xmoj.tech
     - +.xmonecode.com
     - +.xmos.tv
     - +.xmov.ai
