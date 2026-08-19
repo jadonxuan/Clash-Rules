@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-08-18T04:49:31Z
+# Sync time (UTC): 2026-08-19T04:49:52Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - 1password.drift.click
@@ -822,7 +822,7 @@ payload:
     - +.android
     - +.amazon
     - +.jfengtime.com
-    - +.artstation.com
+    - +.cheggcdn.com
     - +.12vpn.com
     - +.12vpn.net
     - +.1337x.gd
@@ -3030,7 +3030,7 @@ payload:
     - +.artixlinux.org
     - +.artnudegalleries.com
     - +.artoferotica.info
-    - +.jiuse.io
+    - +.artstation.com
     - +.artstationmedia.com
     - +.artstor.org
     - +.artstorm.com
@@ -5513,7 +5513,7 @@ payload:
     - +.c4slive.com
     - +.cabconnect.org
     - +.cableav.tv
-    - +.cableav.xyz
+    - +.jiuse6666.com
     - +.cablegatesearch.net
     - +.yinya.shop
     - +.cabletvdirectv.com
@@ -6038,7 +6038,7 @@ payload:
     - +.cheerwholesale.us
     - +.chef.io
     - +.chegg.com
-    - +.cheggcdn.com
+    - +.jiuse.io
     - +.chemequations.com
     - +.chemnetbase.com
     - +.chengjuanseo.com
@@ -6533,7 +6533,7 @@ payload:
     - +.comic-growl.com
     - +.comicbox.xyz
     - +.comicbushi-web.com
-    - +.comicscartoonporn.com
+    - +.jiuse.icu
     - +.comicsporno.es
     - +.comicunivers.com
     - +.comicuniverse.org
@@ -13909,9 +13909,9 @@ payload:
     - +.jitsi.org
     - +.jiuse.ai
     - +.xboxone.co
-    - +.lianhonghong.com
+    - +.comicscartoonporn.com
     - +.12joursdecadeauxdeitunes.com
-    - +.weldberres.ru
+    - +.cableav.xyz
     - +.jiuse821.com
     - +.jiuse822.com
     - +.jiuse823.com
@@ -14660,7 +14660,7 @@ payload:
     - +.li.taipei
     - +.liangyou.net
     - +.liangzhichuanmei.com
-    - +.jiuse.icu
+    - +.lianhonghong.com
     - +.lianjiajr.net
     - +.liaowangxizang.net
     - +.wwwxoom.com
@@ -17524,6 +17524,7 @@ payload:
     - +.nonstopfap.com
     - +.noodlemagazine.com
     - +.noosferabank.ru
+    - +.nordcdn.com
     - +.nordstrom.com
     - +.nordstromimage.com
     - +.nordstrommedia.com
@@ -19583,7 +19584,7 @@ payload:
     - +.proxomitron.info
     - +.proxpn.com
     - +.proxyadult.org
-    - +.jiuse6666.com
+    - +.weldberres.ru
     - +.proxyrarbg.org
     - +.proxz.com
     - +.proyectoclubes.com
