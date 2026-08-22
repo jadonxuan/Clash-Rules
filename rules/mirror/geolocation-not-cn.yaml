@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-08-21T04:52:02Z
+# Sync time (UTC): 2026-08-22T04:47:11Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - 1password.drift.click
@@ -821,8 +821,8 @@ payload:
     - +.apple
     - +.android
     - +.amazon
-    - +.jfn.su
-    - +.autodeskdocandmediaemea.com
+    - +.jfrog.com
+    - +.acgcf.com
     - +.12vpn.com
     - +.12vpn.net
     - +.1337x.gd
@@ -1455,7 +1455,7 @@ payload:
     - +.acg.rip
     - +.acg18.me
     - +.acgbox.org
-    - +.acgcf.com
+    - +.jiuse822.com
     - +.acgdg.com
     - +.acgdv.com
     - +.acgfabu.com
@@ -3120,7 +3120,7 @@ payload:
     - +.assembla.com
     - +.assemblesystems.com
     - +.assesphoto.com
-    - +.jiuse822.com
+    - +.youtubekids.com
     - +.assetsadobe.com
     - +.assimp.org
     - +.assistirhentai.com
@@ -3136,7 +3136,7 @@ payload:
     - +.at.ua
     - +.atandt.com
     - +.atb.su
-    - +.youtubekids.com
+    - +.youtubego.in
     - +.atchinese.com
     - +.atdmt2.com
     - +.ateam-oracle.com
@@ -3157,7 +3157,7 @@ payload:
     - +.atomyze.ru
     - +.atomyze.tech
     - +.atos.net
-    - +.youtubego.in
+    - +.youtubego.id
     - +.atscaleconference.com
     - +.att-bundles.com
     - +.att-idns.net
@@ -3295,7 +3295,7 @@ payload:
     - +.autodeskdocandmedia.com
     - +.autodeskdocandmediaamericas.com
     - +.autodeskdocandmediaasia.com
-    - +.jiuse821.com
+    - +.autodeskdocandmediaemea.com
     - +.autodeskdocandmediaeurope.com
     - +.autodeskegitimleri.com
     - +.autodeskenterprise.com
@@ -3362,7 +3362,7 @@ payload:
     - +.autodeskworkshop.net
     - +.autodraw.com
     - +.autoesporte.com
-    - +.youtubego.id
+    - +.youtubego.com
     - +.autokreditbank.ru
     - +.automaton-media.com
     - +.automobile.fr
@@ -3387,7 +3387,7 @@ payload:
     - +.av6k.com
     - +.av6k.vip
     - +.avaaz.org
-    - +.youtubego.com
+    - +.youtubegaming.com
     - +.avangard.ru
     - +.avast.com
     - +.avatara.com
@@ -3478,15 +3478,15 @@ payload:
     - +.avxhm.se
     - +.avxlive.icu
     - +.avxxc.com
-    - +.youtubegaming.com
+    - +.youtubefanfest.com
     - +.awayoutgame.com
     - +.aweencore.com
     - +.awempire.com
-    - +.youtubefanfest.com
+    - +.youtubeeducation.com
     - +.awetv.com
     - +.awflapp.top
     - +.awjq.cc
-    - +.youtubeeducation.com
+    - +.youtubecisco.com
     - +.aws-iot-hackathon.com
     - +.aws.com
     - +.aws.dev
@@ -3512,7 +3512,7 @@ payload:
     - +.awwcn.buzz
     - +.awwcn.xyz
     - +.awxcdn.com
-    - +.youtubecisco.com
+    - +.youtube.vn
     - +.axept.io
     - +.axios.com
     - +.axm-usercontent-apple.com
@@ -3532,7 +3532,7 @@ payload:
     - +.aziani.com
     - +.azirevpn.com
     - +.aznude.com
-    - +.youtube.vn
+    - +.youtube.uy
     - +.azure-api.net
     - +.azure-devices-int.net
     - +.azure-devices.net
@@ -3581,7 +3581,7 @@ payload:
     - +.b-ok.cc
     - +.b-ok.global
     - +.b-ok.org
-    - +.youtube.uy
+    - +.youtube.ug
     - +.b2c-digest.ru
     - +.b37mrtl.ru
     - +.b3boos.com
@@ -3610,7 +3610,7 @@ payload:
     - +.babushky.club
     - +.babycondom.com
     - +.babylonbee.com
-    - +.youtube.ug
+    - +.youtube.ua
     - +.babypink.to
     - +.babyzone.com
     - +.backchina.com
@@ -3630,7 +3630,7 @@ payload:
     - +.badvirtue.com
     - +.baeb.com
     - +.bag-glasses1.com
-    - +.youtube.ua
+    - +.youtube.tv
     - +.bai29.xyz
     - +.baicaonetwork.com
     - +.baidu.jp
@@ -3693,7 +3693,7 @@ payload:
     - +.bargipsy.com
     - +.barium-enema.com
     - +.barkadahansasmartone.com
-    - +.youtube.tv
+    - +.youtube.tn
     - +.barrons-advisor.com
     - +.barrons-conferences.com
     - +.barrons.com
@@ -3729,19 +3729,19 @@ payload:
     - +.bb-chat.tv
     - +.bb33.net
     - +.bbbaihu.vip
-    - +.youtube.tn
+    - +.youtube.sv
     - +.bbc-anal.com
     - +.bbc-reporting-api.app
-    - +.youtube.sv
+    - +.youtube.soy
     - +.bbc.com
     - +.bbc.in
-    - +.youtube.soy
     - +.youtube.sn
     - +.youtube.sk
+    - +.youtube.si
     - +.bbcchinese.com
     - +.bbchat.tv
-    - +.youtube.si
     - +.youtube.sg
+    - +.youtube.se
     - +.bbcpersian.com
     - +.bbcpornonly.com
     - +.bbcverticals.com
@@ -3752,13 +3752,13 @@ payload:
     - +.bbhub.io
     - +.bbqm1.xyz
     - +.bbr.ru
-    - +.youtube.se
     - +.youtube.sa
     - +.youtube.ru
     - +.youtube.rs
     - +.youtube.ro
     - +.youtube.qa
     - +.youtube.pt
+    - +.youtube.pr
     - +.bbthat.com
     - +.bbw-yoyo.buzz
     - +.bbwmilftube.com
@@ -3970,7 +3970,7 @@ payload:
     - +.beatsbysdrbre.com
     - +.beatsbysdrdres.com
     - +.beatscasque-france.com
-    - +.beatscheap-nz.com
+    - +.jiuse821.com
     - +.beatscheap-uk.com
     - +.beatscheapforsale.com
     - +.beatscollection2014.com
@@ -4063,9 +4063,9 @@ payload:
     - +.beatswirelesscuffie.com
     - +.beatthatquote.com
     - +.beautifulandbusty.com
-    - +.youtube.pr
-    - +.beautyescortsamsterdam.com
     - +.youtube.pl
+    - +.beautyescortsamsterdam.com
+    - +.youtube.pk
     - +.bebo.com
     - +.becomeindex.com
     - +.beddit.tv
@@ -4129,7 +4129,7 @@ payload:
     - +.bestbuy-jobs.com
     - +.bestbuy.ca
     - +.bestbuy.com
-    - +.youtube.pk
+    - +.youtube.ph
     - +.bestbuy.info
     - +.bestbuy24x7solutions.com
     - +.bestbuybusiness.com
@@ -4186,7 +4186,7 @@ payload:
     - +.bestpornsites.guide
     - +.bestporntube.me
     - +.bestpremiumpornsite.com
-    - +.youtube.ph
+    - +.youtube.pe
     - +.bestsexcam.com
     - +.bestshoesale2014.net
     - +.bestsrv.de
@@ -4232,8 +4232,8 @@ payload:
     - +.bgov.com
     - +.bgr.in
     - +.bgvpn.com
-    - +.youtube.pe
     - +.youtube.pa
+    - +.youtube.no
     - +.bhggn.xyz
     - +.bhzyk.buzz
     - +.bhzyw2.top
@@ -4243,17 +4243,17 @@ payload:
     - +.biblesforamerica.org
     - +.bibox.com
     - +.bidbay.com
-    - +.youtube.no
+    - +.youtube.nl
     - +.bidong25.com
     - +.bidong9.com
     - +.bidorbuyindia.com
-    - +.youtube.nl
+    - +.youtube.ni
     - +.biedian.me
     - +.bienvenuechezbestbuy.ca
     - +.big.one
     - +.bigassporn.tv
     - +.bigbeans.solutions
-    - +.youtube.ni
+    - +.youtube.ng
     - +.bigbigshop.com
     - +.bigblackdicklover.com
     - +.bigboobalexya.com
@@ -4359,7 +4359,7 @@ payload:
     - +.binancezh.pro
     - +.binancezh.sh
     - +.binancezh.top
-    - +.youtube.ng
+    - +.youtube.my
     - +.bing.com
     - +.bing.net
     - +.bing123.com
@@ -4387,7 +4387,7 @@ payload:
     - +.bisq.io
     - +.bisq.network
     - +.bistudio.com
-    - +.youtube.my
+    - +.youtube.mx
     - +.bit-z.com
     - +.bit.do
     - +.bit.ly
@@ -4436,7 +4436,7 @@ payload:
     - +.bizographics.com
     - +.bjini.cc
     - +.bjzc.org
-    - +.youtube.mx
+    - +.youtube.mn
     - +.bk.ru
     - +.bkkdown.site
     - +.bl-doujinsouko.com
@@ -4475,22 +4475,22 @@ payload:
     - +.blockfrost.io
     - +.blockless.com
     - +.blocktempo.com
-    - +.youtube.mn
-    - +.blog.de
     - +.youtube.mk
+    - +.blog.de
     - +.youtube.me
     - +.youtube.md
     - +.youtube.ma
     - +.youtube.ly
     - +.youtube.lv
-    - +.blog.jp
     - +.youtube.lu
+    - +.blog.jp
     - +.youtube.lt
     - +.youtube.lk
     - +.youtube.la
     - +.youtube.kz
     - +.youtube.kr
     - +.youtube.jp
+    - +.youtube.jo
     - +.blogblog.com
     - +.blogcatalog.com
     - +.blogcity.me
@@ -4513,15 +4513,14 @@ payload:
     - +.blogspot.cf
     - +.blogspot.ch
     - +.blogspot.cl
-    - +.youtube.jo
     - +.youtube.it
     - +.youtube.is
     - +.youtube.iq
     - +.youtube.in
     - +.youtube.ie
     - +.youtube.hu
-    - +.blogspot.com
     - +.youtube.hr
+    - +.blogspot.com
     - +.youtube.hk
     - +.youtube.gt
     - +.youtube.gr
@@ -4534,6 +4533,7 @@ payload:
     - +.youtube.de
     - +.youtube.cz
     - +.youtube.cr
+    - +.youtube.com
     - +.blogspot.cv
     - +.blogspot.cz
     - +.blogspot.de
@@ -4579,10 +4579,10 @@ payload:
     - +.blogterest.net
     - +.bloodshed.net
     - +.12diasderegalosdeitunes.com
-    - +.youtube.com
     - +.youtube.co
-    - +.bloomberg.com
     - +.youtube.cl
+    - +.bloomberg.com
+    - +.youtube.ch
     - +.bloomberg.de
     - +.bloomberg.fm
     - +.bloomberg.tv
@@ -4649,7 +4649,7 @@ payload:
     - +.bmia.org
     - +.bmj.com
     - +.bml.info
-    - +.youtube.ch
+    - +.youtube.cat
     - +.bmw-abudhabi.com
     - +.bmw-adventskalender.com
     - +.bmw-albania.com
@@ -4672,16 +4672,16 @@ payload:
     - +.bmw-connecteddrive.bg
     - +.bmw-connecteddrive.ca
     - +.bmw-connecteddrive.ch
-    - +.youtube.cat
     - +.youtube.ca
     - +.youtube.by
-    - +.bmw-connecteddrive.com
     - +.youtube.bo
+    - +.bmw-connecteddrive.com
     - +.youtube.bh
     - +.youtube.bg
     - +.youtube.be
     - +.youtube.ba
     - +.youtube.az
+    - +.youtube.at
     - +.bmw-connecteddrive.cz
     - +.bmw-connecteddrive.de
     - +.bmw-connecteddrive.dk
@@ -4713,7 +4713,7 @@ payload:
     - +.bmw-connecteddrive.tw
     - +.bmw-corporate-sales.com
     - +.bmw-diplomatic-sales.com
-    - +.youtube.at
+    - +.youtube.am
     - +.bmw-drivingexperience.com
     - +.bmw-dubai.com
     - +.bmw-eg.com
@@ -4758,14 +4758,13 @@ payload:
     - +.bmw-motorrad.ch
     - +.bmw-motorrad.cl
     - +.bmw-motorrad.co
-    - +.youtube.am
     - +.youtube.al
     - +.youtube.ae
     - +.youtube-nocookie.com
     - +.02weqj32.com
     - +.youtu.be
-    - +.bmw-motorrad.com
     - +.youtrannytube.com
+    - +.bmw-motorrad.com
     - +.youtrack.cloud
     - +.youskbe.com
     - +.yousendit.com
@@ -4775,6 +4774,7 @@ payload:
     - +.yourvoyeurvideos.com
     - +.yourupskirt.com
     - +.yourporngod.com
+    - +.yourporndump.com
     - +.bmw-motorrad.cr
     - +.bmw-motorrad.cz
     - +.bmw-motorrad.de
@@ -4818,7 +4818,7 @@ payload:
     - +.bmw-ottawa.ca
     - +.bmw-pakistan.com
     - +.bmw-plant-munich.com
-    - +.yourporndump.com
+    - +.yourporn.sexy
     - +.bmw-powertrain.com
     - +.bmw-product-highlights.com
     - +.bmw-qatar.com
@@ -4859,7 +4859,6 @@ payload:
     - +.bmw.cc
     - +.bmw.ch
     - +.bmw.cl
-    - +.yourporn.sexy
     - +.yourpelvicexam.com
     - +.yourmonsterbeats.com
     - +.yourmomsgotbigtits.com
@@ -4870,8 +4869,8 @@ payload:
     - +.yourfreeporn.tv
     - +.yourflashporn.com
     - +.yourfantasybeginsnow.com
-    - +.bmw.com
     - +.yourepeat.com
+    - +.bmw.com
     - +.yourdoll.com
     - +.yourdirtymind.com
     - +.yourdailypornvideos.ws
@@ -4900,6 +4899,7 @@ payload:
     - +.youngpornhd.com
     - +.youngmommyfucksme.com
     - +.younglibertines.com
+    - +.jiuse823.com
     - +.youngheaven.com
     - +.bmw.cw
     - +.bmw.cz
@@ -5231,6 +5231,7 @@ payload:
     - +.brewmp.com
     - +.briantreepayments.net
     - +.briantreepayments.tv
+    - +.briarproject.org
     - +.youla.ru
     - +.bridgebim.com
     - +.youla.io
@@ -6265,7 +6266,7 @@ payload:
     - +.ckss98.com
     - +.clamwin.com
     - +.clannad-movie.jp
-    - +.jiuse6666.com
+    - +.claravenger.com
     - +.clarivate.com
     - +.clash.com
     - +.clashmi.app
@@ -13880,8 +13881,8 @@ payload:
     - +.jex.com
     - +.xboxone.com
     - +.jfengtime.com
+    - +.jfn.su
     - +.000webhost.com
-    - +.jfrog.com
     - +.jfrog.org
     - +.jgg18.xyz
     - +.jgoodies.com
@@ -13915,10 +13916,10 @@ payload:
     - +.xboxlive.com
     - +.jiuse.icu
     - +.jiuse.io
-    - +.claravenger.com
+    - +.jiuse6666.com
+    - +.beatscheap-nz.com
     - +.12joursdecadeauxdeitunes.com
     - +.xboxgamestudios.com
-    - +.jiuse823.com
     - +.jivara.global
     - +.jivo.chat
     - +.jivo.ru
@@ -25610,7 +25611,7 @@ payload:
     - +.jivochat.com.br
     - +.jivochat.co.za
     - +.jivochat.co.in
-    - +.assets.nxtrace.org
+    - +.bmw.com.uy
     - +.jiuse.com.co
     - +.jibunbank.co.jp
     - +.jfc.go.jp
@@ -26521,7 +26522,6 @@ payload:
     - +.bmwmotorrad.com.au
     - +.bmwmotorrad.co.kr
     - +.bmw.com.ve
-    - +.bmw.com.uy
     - +.bmw.com.tw
     - +.bmw.com.tr
     - +.bmw.com.sv
@@ -26563,8 +26563,8 @@ payload:
     - +.bmw.co.ao
     - +.bmw-pma.com.sg
     - +.bmw-motorrad.com.tr
-    - +.yourtv.com.au
     - +.bmw-motorrad.com.py
+    - +.yourtv.com.au
     - +.bmw-motorrad.com.pe
     - +.bmw-motorrad.com.my
     - +.bmw-motorrad.com.mx
@@ -26592,6 +26592,7 @@ payload:
     - +.12diasderegalosdeitunes.co.ve
     - +.bloomberg.com.br
     - +.bloomberg.co.kr
+    - +.bloomberg.co.jp
     - +.youtube.co.ae
     - +.youtube.co.at
     - +.youtube.co.cr
@@ -26611,7 +26612,7 @@ payload:
     - +.youtube.co.ve
     - +.youtube.co.za
     - +.youtube.co.zw
-    - +.bloomberg.co.jp
+    - +.blogspot.com.uy
     - +.youtube.com.ar
     - +.youtube.com.au
     - +.youtube.com.az
@@ -26662,7 +26663,6 @@ payload:
     - +.youtube.com.ua
     - +.youtube.com.uy
     - +.youtube.com.ve
-    - +.blogspot.com.uy
     - +.blogspot.com.tr
     - +.blogspot.com.ng
     - +.blogspot.com.mt
@@ -26731,13 +26731,14 @@ payload:
     - +.12diasderegalosdeitunes.com.ve
     - +.awesomeent.co.kr
     - +.awabank.co.jp
+    - +.avail.googleflights.net
     - +.youtubego.co.id
     - +.youtubego.co.in
-    - +.avail.googleflights.net
-    - +.youtubego.com.br
     - +.autoesporte.com.br
+    - +.youtubego.com.br
     - +.airbnb.co.id
     - +.atc.org.au
+    - +.assets.nxtrace.org
     - +.aspistrategist.org.au
     - +.aspi.org.au
     - +.ashikagabank.co.jp
