@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-09-04T08:49:20Z
+# Sync time (UTC): 2026-09-05T08:19:54Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - 1password.drift.click
@@ -822,7 +822,7 @@ payload:
     - +.android
     - +.amazon
     - +.jfrog.org
-    - +.bang-movies.com
+    - +.madhomemadeporn.com
     - +.12vpn.com
     - +.12vpn.net
     - +.1337x.gd
@@ -3660,7 +3660,7 @@ payload:
     - +.bandpage.com
     - +.bandwagonhost.com
     - +.bang-dream.com
-    - +.jiuse823.com
+    - +.bang-movies.com
     - +.bangbros.com
     - +.bangbrosnetwork.com
     - +.bangchen.net
@@ -4849,7 +4849,7 @@ payload:
     - +.bmw-yachtsport.com
     - +.bmw-yeg.ca
     - +.bmw-yemen.com
-    - +.bmw.am
+    - +.jivara.global
     - +.bmw.at
     - +.bmw.az
     - +.bmw.ba
@@ -13927,9 +13927,9 @@ payload:
     - +.jiuse.io
     - +.jiuse6666.com
     - +.jiuse821.com
-    - +.wix.com
+    - +.needforspeedredline.com
     - +.12joursdecadeauxdeitunes.com
-    - +.npmjs.org
+    - +.bmw.am
     - +.jivo.chat
     - +.jivo.ru
     - +.xboxgamepass.com
@@ -14777,6 +14777,7 @@ payload:
     - +.linux.do
     - +.linux.org
     - +.wwwmfacebook.com
+    - +.linux.sb
     - +.linuxfoundation.org
     - +.linuxfromscratch.org
     - +.linuxmint.com
@@ -15113,7 +15114,7 @@ payload:
     - +.madewithmaya.com
     - +.madewithstudiotools.com
     - +.madewithunity.jp
-    - +.madhomemadeporn.com
+    - +.jiuse823.com
     - +.madonna-av.com
     - +.madou.club
     - +.madou.la
@@ -16197,7 +16198,7 @@ payload:
     - +.mixmaturesex.com
     - +.mixvintagesex.com
     - +.mixx.com
-    - +.jiuse822.com
+    - +.wix.com
     - +.wix-code.com
     - +.mizzmona.com
     - +.mji.rip
@@ -16991,7 +16992,7 @@ payload:
     - +.needforspeedlightning.com
     - +.needforspeedoverdrive.com
     - +.needforspeedproven.com
-    - +.needforspeedredline.com
+    - +.jiuse822.com
     - +.needforspeedshowdown.com
     - +.needforspeedstreetkings.com
     - +.needforspeedtakedown.com
@@ -17590,7 +17591,7 @@ payload:
     - +.wikileaks.pl
     - +.npm.community
     - +.npmjs.com
-    - +.jivara.global
+    - +.npmjs.org
     - +.npnt.me
     - +.npr.org
     - +.npsboost.com
