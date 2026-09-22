@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-09-21T09:53:37Z
+# Sync time (UTC): 2026-09-22T09:16:45Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - +.alibaba
@@ -54,8 +54,8 @@ payload:
     - +.baidu
     - +.anquan
     - +.alipay
-    - +.jsjgbxg.com
-    - +.cargai.com
+    - +.jsjhtz.com
+    - +.rdamicro.com
     - +.027htxt.com
     - +.027hxzy.com
     - +.027hy.com
@@ -16728,7 +16728,7 @@ payload:
     - +.bookshi.com
     - +.bookshoptw.com
     - +.bookshuku.com
-    - +.booksky.cc
+    - +.jssihuan.com
     - +.bookskys.com
     - +.booksn.com
     - +.booksos.net
@@ -18297,7 +18297,7 @@ payload:
     - +.carertec.com
     - +.careuc.com
     - +.carezb.com
-    - +.jssia.org
+    - +.cargai.com
     - +.cargeer.com
     - +.cargo001.com
     - +.cargodiscovery.com
@@ -18955,7 +18955,7 @@ payload:
     - +.cdedu.com
     - +.cdeledu.com
     - +.cdenvironment.com
-    - +.jssihuan.com
+    - +.cdfanmu.com
     - +.cdfcjg.com
     - +.cdfcn.com
     - +.cdfeimi.com
@@ -34543,6 +34543,7 @@ payload:
     - +.fnos.net
     - +.fnrcw.com
     - +.fnrczp.com
+    - +.fnrrc.com
     - +.fnsbqvz.com
     - +.fnscore.com
     - +.fnwlzz.com
@@ -38652,6 +38653,7 @@ payload:
     - +.gongkongsaas.com
     - +.gonglf.com
     - +.gonglve.net
+    - +.gongniukaiguan.net
     - +.gongnou.com
     - +.gongpin.net
     - +.gongpingjia.com
@@ -55379,9 +55381,9 @@ payload:
     - +.jsjffj.com
     - +.jsjform.com
     - +.jsjfz.com
-    - +.0.zone
+    - +.jsjgbxg.com
     - +.jsjgtz.com
-    - +.jsjhtz.com
+    - +.0.zone
     - +.jsjiami.com
     - +.jsjianli.com
     - +.jsjianye.net
@@ -55538,11 +55540,11 @@ payload:
     - +.jsshow.net
     - +.jsshrzx.com
     - +.jsshuangxin.com
-    - +.lianqi.net
+    - +.jsshuntai.com
+    - +.jssia.org
+    - +.booksky.cc
     - +.027hpit.com
-    - +.cdfanmu.com
-    - +.jssjchyxh.com
-    - +.jssjrfw.com
+    - +.xy3yy.com
     - +.jssjxgyw.com
     - +.jssks.com
     - +.jssling.com
@@ -60497,7 +60499,7 @@ payload:
     - +.lianouyiyuan.com
     - +.lianpingroup.com
     - +.lianpunet.com
-    - +.jsshuntai.com
+    - +.lianqi.net
     - +.lianqigong.com
     - +.liansaipiao.com
     - +.lianshang.com
@@ -64156,6 +64158,7 @@ payload:
     - +.mdbchina.com
     - +.mdbimg.com
     - +.mdclub.org
+    - +.mddclass.com
     - +.mdddg.com
     - +.mddj.com
     - +.mddlsa.com
@@ -75283,6 +75286,7 @@ payload:
     - +.qudao168.com
     - +.qudaowuyou.com
     - +.qudayun.com
+    - +.qudian.com
     - +.qudingshui.com
     - +.qudong.com
     - +.qudong51.net
@@ -76282,7 +76286,7 @@ payload:
     - +.rd351.com
     - +.rdacs.com
     - +.rdadiy.com
-    - +.rdamicro.com
+    - +.jssjchyxh.com
     - +.rdbuy.com
     - +.rdcnzz.com
     - +.rdcolg.net
@@ -90827,6 +90831,7 @@ payload:
     - +.uboat100.com
     - +.uborn.net
     - +.uboxol.com
+    - +.uboxs.com
     - +.ubs001.com
     - +.ubssdic.com
     - +.ubtrobot.com
@@ -92934,6 +92939,7 @@ payload:
     - +.vx.com
     - +.vx56.com
     - +.vxe.com
+    - +.vxhcm.com
     - +.vxia.net
     - +.vxiaocheng.com
     - +.vxinyou.com
@@ -100997,7 +101003,7 @@ payload:
     - +.xy178.com
     - +.xy3000.com
     - +.xy36z.com
-    - +.xy3yy.com
+    - +.jssjrfw.com
     - +.xy58.net
     - +.xy599.com
     - +.xy980.net
@@ -104061,6 +104067,7 @@ payload:
     - +.youbangyun.com
     - +.youbbs.org
     - +.youbian.com
+    - +.youbianku.com
     - +.youbibi.com
     - +.youbike.me
     - +.youbikecn.com
@@ -108170,6 +108177,7 @@ payload:
     - +.zhonglianhuashu.com
     - +.zhonglianhuaxin.com
     - +.zhonglianyx.com
+    - +.zhongliujie.com
     - +.zhongliusp.com
     - +.zhongliuyiyuan.com
     - +.zhonglue-consulting.com
@@ -110379,6 +110387,7 @@ payload:
     - +.zuixu.com
     - +.zuiyanke.com
     - +.zuiyou.com
+    - +.zuiyou.tv
     - +.zuiyouxi.com
     - +.zuizhifu.com
     - +.zuji360.com
