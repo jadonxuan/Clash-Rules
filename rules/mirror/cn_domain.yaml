@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-09-23T09:17:00Z
+# Sync time (UTC): 2026-09-24T09:16:53Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - +.alibaba
@@ -55,7 +55,7 @@ payload:
     - +.anquan
     - +.alipay
     - +.jsjhtz.com
-    - +.rdamicro.com
+    - +.52etf.site
     - +.027htxt.com
     - +.027hxzy.com
     - +.027hy.com
@@ -4900,7 +4900,7 @@ payload:
     - +.51gaifang.com
     - +.51gamecard.com
     - +.51ganjie.com
-    - +.51gaoji.com
+    - +.jssjrfw.com
     - +.51gaoxiao.com
     - +.51garlic.com
     - +.51gdrc.com
@@ -5436,7 +5436,7 @@ payload:
     - +.52edns.com
     - +.52edy.com
     - +.52enku.com
-    - +.52etf.site
+    - +.jssjchyxh.com
     - +.52fangzi.com
     - +.52fanxing.com
     - +.52fzwg.com
@@ -16728,7 +16728,7 @@ payload:
     - +.bookshi.com
     - +.bookshoptw.com
     - +.bookshuku.com
-    - +.jssihuan.com
+    - +.booksky.cc
     - +.bookskys.com
     - +.booksn.com
     - +.booksos.net
@@ -55542,9 +55542,9 @@ payload:
     - +.jsshuangxin.com
     - +.jsshuntai.com
     - +.jssia.org
-    - +.booksky.cc
+    - +.yinkead.com
     - +.027hpit.com
-    - +.xy3yy.com
+    - +.51gaoji.com
     - +.jssjxgyw.com
     - +.jssks.com
     - +.jssling.com
@@ -76286,7 +76286,7 @@ payload:
     - +.rd351.com
     - +.rdacs.com
     - +.rdadiy.com
-    - +.jssjchyxh.com
+    - +.rdamicro.com
     - +.rdbuy.com
     - +.rdcnzz.com
     - +.rdcolg.net
@@ -82484,6 +82484,7 @@ payload:
     - +.sjf029.com
     - +.sjfcdn.com
     - +.sjfh168.com
+    - +.sjfls6.com
     - +.sjfpro.com
     - +.sjfzxm.com
     - +.sjg8.com
@@ -101003,7 +101004,7 @@ payload:
     - +.xy178.com
     - +.xy3000.com
     - +.xy36z.com
-    - +.jssjrfw.com
+    - +.xy3yy.com
     - +.xy58.net
     - +.xy599.com
     - +.xy980.net
@@ -103063,7 +103064,7 @@ payload:
     - +.yinjiabio.com
     - +.yinjispace.com
     - +.yinka.co
-    - +.yinkead.com
+    - +.jssihuan.com
     - +.yinlimedia.com
     - +.yinlingshuyuan.com
     - +.yinlvaa.com
