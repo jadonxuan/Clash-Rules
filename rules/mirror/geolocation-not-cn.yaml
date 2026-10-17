@@ -1,5 +1,5 @@
 # Auto-mirrored from MetaCubeX/meta-rules-dat
-# Sync time (UTC): 2026-10-16T08:59:34Z
+# Sync time (UTC): 2026-10-17T08:31:21Z
 # DO NOT edit manually — changes will be overwritten
 payload:
     - 1password.drift.click
@@ -829,8 +829,8 @@ payload:
     - +.apple
     - +.android
     - +.amazon
-    - +.jiaochuanba25.buzz
-    - +.tbcollege.org
+    - +.jiangweiping.com
+    - +.nikeplus.org
     - +.12diasderegalosdeitunes.pe
     - +.12joursdecadeauxdeitunes.com
     - +.12vpn.com
@@ -1247,6 +1247,7 @@ payload:
     - +.7tb.cc
     - +.7tv.app
     - +.7tv.io
+    - +.7x24hrs.com
     - +.8-d.com
     - +.8008206616.com
     - +.8111y.top
@@ -6657,7 +6658,7 @@ payload:
     - +.coolstuffinc.com
     - +.coomer.party
     - +.coomer.st
-    - +.coomer.su
+    - +.jizzle.com
     - +.coova.com
     - +.coova.net
     - +.coova.org
@@ -7409,7 +7410,7 @@ payload:
     - +.dev-my.com
     - +.dev-my.games
     - +.dev-theguardian.com
-    - +.jizzhut.com
+    - +.dev.to
     - +.devcon.org
     - +.developer-advisor.com
     - +.yahoo.ch
@@ -13975,8 +13976,8 @@ payload:
     - +.jhelab.org
     - +.jhxl.org
     - +.jhzyw.xyz
-    - +.jiangweiping.com
     - +.000webhost.com
+    - +.jiaochuanba25.buzz
     - +.jiaochuanba26.buzz
     - +.jiaoyou8.com
     - +.jiayoulu.com
@@ -14010,10 +14011,10 @@ payload:
     - +.jiyou520.com
     - +.xboxlive.com
     - +.jizzboom.com
-    - +.jizzbunker.com
-    - +.dev.to
+    - +.meitula.net
     - +.12diasderegalosdeitunes.hn
-    - +.video01.org
+    - +.coomer.su
+    - +.jizzonline.com
     - +.jjgirls.com
     - +.jjsuo.sbs
     - +.jkb.cc
@@ -15663,7 +15664,7 @@ payload:
     - +.meguso.com
     - +.meijinsen.jp
     - +.meilleurpornos.com
-    - +.meitula.net
+    - +.jizzbunker.com
     - +.meizhong.blog
     - +.meizhong.report
     - +.melon.com
@@ -17470,7 +17471,7 @@ payload:
     - +.nikeoutletstores.com
     - +.nikepioneer.com
     - +.nikeplus.com
-    - +.nikeplus.org
+    - +.jizzhut.com
     - +.nikepress.com
     - +.nikeprice.com
     - +.nikeproduct.com
@@ -22654,7 +22655,7 @@ payload:
     - +.tb.pro
     - +.tbank-online.com
     - +.tbank.ru
-    - +.jizzle.com
+    - +.tbcollege.org
     - +.tbib.org
     - +.vrv.co
     - +.tbsec.org
@@ -24360,7 +24361,7 @@ payload:
     - +.video-one.com
     - +.volvogroup.be
     - +.volvodefense.com
-    - +.jizzonline.com
+    - +.video01.org
     - +.videobam.com
     - +.videobreakdown.com
     - +.videochampion.com
